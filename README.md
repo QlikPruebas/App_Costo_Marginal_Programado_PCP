@@ -15,4 +15,4 @@ Inicio|
 
 Branch Name|Qlik application
 ---|---
-main|[https://qliksense.coordinador.cl/saml/sense/app/e39dd687-0d22-4742-9c1f-2185fcf44ee7](https://qliksense.coordinador.cl/saml/sense/app/e39dd687-0d22-4742-9c1f-2185fcf44ee7)
+main|[https://bi.qliksense.coordinador.cl/prd/sense/app/d4398efa-e4dc-4920-9e14-570a125a4d31](https://bi.qliksense.coordinador.cl/prd/sense/app/d4398efa-e4dc-4920-9e14-570a125a4d31)
