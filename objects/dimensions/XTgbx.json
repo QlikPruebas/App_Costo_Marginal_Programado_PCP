@@ -1,0 +1,83 @@
+{
+  "qInfo": {
+    "qId": "XTgbx",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "CALIDAD_DESC"
+    ],
+    "qFieldLabels": [
+      ""
+    ],
+    "qLabelExpression": "='Calidad'",
+    "title": "Calidad Desc",
+    "coloring": {
+      "changeHash": "0.5141391528291259",
+      "hasValueColors": true,
+      "colorMapRef": "XTgbx"
+    }
+  },
+  "qMetaDef": {
+    "title": "Calidad Desc",
+    "description": "",
+    "tags": []
+  },
+  "_ColorMapModel": {
+    "qInfo": {
+      "qId": "ColorMapModel_XTgbx",
+      "qType": "ColorMap"
+    },
+    "qMeta": {
+      "title": "",
+      "description": "",
+      "createdDate": "2024-10-28T15:42:03.271Z",
+      "modifiedDate": "2024-11-08T16:05:50.770Z",
+      "published": true,
+      "publishTime": "2024-10-28T15:42:03.302Z",
+      "approved": true,
+      "qSize": -1,
+      "sourceObject": "",
+      "draftObject": ""
+    },
+    "colorMap": {
+      "colors": [
+        {
+          "value": "Mala",
+          "baseColor": {
+            "color": "#f15e24",
+            "index": -1
+          }
+        },
+        {
+          "value": "Buena",
+          "baseColor": {
+            "color": "#6cb33f",
+            "index": -1
+          }
+        },
+        {
+          "value": "Inválido",
+          "baseColor": {
+            "color": "#f15e24",
+            "index": -1
+          }
+        },
+        {
+          "value": "Válido",
+          "baseColor": {
+            "color": "#6cb33f",
+            "index": -1
+          }
+        }
+      ],
+      "nul": null,
+      "oth": null,
+      "pal": null,
+      "single": null,
+      "usePal": true,
+      "autoFill": true
+    }
+  }
+}

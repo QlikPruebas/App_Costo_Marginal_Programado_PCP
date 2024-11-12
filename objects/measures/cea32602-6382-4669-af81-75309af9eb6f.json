@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "cea32602-6382-4669-af81-75309af9eb6f",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Valores Mes 6",
+    "qDef": "Avg(MES_6) /100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "=NOMBRE_MES_6",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0.00%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true,
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Valores Mes 6",
+    "description": "",
+    "tags": []
+  }
+}

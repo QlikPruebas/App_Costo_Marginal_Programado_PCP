@@ -1,0 +1,14 @@
+{
+  "qInfo": {
+    "qId": "edfa3080-6ea6-4202-9294-483abfb60d3f",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "FECHA_HORA_REDUCIDOO",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "25-10-2024 10:43"
+}

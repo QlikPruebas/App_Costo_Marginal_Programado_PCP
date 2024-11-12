@@ -1,122 +1,77 @@
 [
   {
-    "qName": "%KEY_BLOQUE_FUENTE_VERSION",
+    "qName": "CALIDAD",
     "qTags": [
-      "$ascii",
-      "$text"
+      "$numeric",
+      "$integer"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "VALORES_ACTUALES"
     ]
   },
   {
-    "qName": "%KEY_DICCIONARIO_BARRAS",
+    "qName": "CALIDAD_DESC",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "VALORES_ACTUALES"
+    ]
+  },
+  {
+    "qName": "COORDINADO",
     "qTags": [
       "$ascii",
       "$text",
       "$key"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO",
-      "DIM_BARRAS"
+      "LISTADO_COORDINADOS",
+      "VALORES_TELEMEDIDOS"
     ]
   },
   {
-    "qName": "Año",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "AñoMesNum",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "Dia",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "Fecha",
-    "qTags": [
-      "$numeric",
-      "$integer",
-      "$timestamp",
-      "$date"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "Fecha_Efectiva",
-    "qTags": [
-      "$numeric",
-      "$integer",
-      "$timestamp",
-      "$date"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "Fecha_Hora",
-    "qTags": [
-      "$numeric",
-      "$timestamp"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "HidroFiltro",
+    "qName": "DIM_FECHAS",
     "qTags": [
       "$ascii",
       "$text"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "ISLA"
     ]
   },
   {
-    "qName": "Hora",
+    "qName": "DIM_FECHAS_ORDEN",
     "qTags": [
       "$numeric",
       "$integer"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "ISLA"
     ]
   },
   {
-    "qName": "Mes",
+    "qName": "ENLACE_ICCP",
     "qTags": [
-      "$numeric",
-      "$integer"
+      "$ascii",
+      "$text"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "VALORES_TELEMEDIDOS"
     ]
   },
   {
-    "qName": "MesAño",
+    "qName": "ENLACE_ICCP_RTU",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "VALORES_TELEMEDIDOS"
+    ]
+  },
+  {
+    "qName": "FECHA",
     "qTags": [
       "$numeric",
       "$integer",
@@ -124,231 +79,213 @@
       "$date"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "TIMESTAMP"
     ]
   },
   {
-    "qName": "Semana",
+    "qName": "FECHA_HORA",
     "qTags": [
-      "$numeric",
-      "$integer"
+      "$ascii",
+      "$text"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "TIMESTAMP"
     ]
   },
   {
-    "qName": "bloque",
+    "qName": "FECHA_HORA_REDUCIDO",
     "qTags": [
       "$numeric",
-      "$integer"
+      "$timestamp"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "TIMESTAMP"
     ]
   },
   {
-    "qName": "cmg",
+    "qName": "HORA",
     "qTags": [
       "$numeric"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "TIMESTAMP"
     ]
   },
   {
-    "qName": "comuna",
+    "qName": "ID_TEXT",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "VALORES_TELEMEDIDOS"
+    ]
+  },
+  {
+    "qName": "INFOTECNICA",
     "qTags": [
       "$ascii",
       "$text"
     ],
     "qSrcTables": [
-      "DIM_BARRAS"
+      "VALORES_TELEMEDIDOS"
     ]
   },
   {
-    "qName": "etapa",
-    "qTags": [
-      "$ascii",
-      "$text"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "fecha_hora_version",
-    "qTags": [
-      "$numeric",
-      "$timestamp"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "fecha_version",
+    "qName": "IRN",
     "qTags": [
       "$numeric",
       "$integer",
-      "$timestamp",
-      "$date"
+      "$key"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ],
-    "qAlwaysOneSelected": true
-  },
-  {
-    "qName": "fecha_version_indhor",
-    "qTags": [
-      "$numeric",
-      "$integer",
-      "$timestamp",
-      "$date"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "VALORES_ACTUALES",
+      "VALORES_TELEMEDIDOS"
     ]
   },
   {
-    "qName": "fuente",
+    "qName": "MES_1",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "LISTADO_COORDINADOS"
+    ]
+  },
+  {
+    "qName": "MES_2",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "LISTADO_COORDINADOS"
+    ]
+  },
+  {
+    "qName": "MES_3",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "LISTADO_COORDINADOS"
+    ]
+  },
+  {
+    "qName": "MES_4",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "LISTADO_COORDINADOS"
+    ]
+  },
+  {
+    "qName": "MES_5",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "LISTADO_COORDINADOS"
+    ]
+  },
+  {
+    "qName": "MES_6",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "LISTADO_COORDINADOS"
+    ]
+  },
+  {
+    "qName": "PITAG",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "VALORES_TELEMEDIDOS"
+    ]
+  },
+  {
+    "qName": "PROTOCOLO",
     "qTags": [
       "$ascii",
       "$text"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "VALORES_TELEMEDIDOS"
     ]
   },
   {
-    "qName": "fuente_indhor",
+    "qName": "RTU",
     "qTags": [
       "$ascii",
       "$text"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "VALORES_TELEMEDIDOS"
     ]
   },
   {
-    "qName": "hidro",
+    "qName": "RTU_ADDRESS1",
+    "qTags": [],
+    "qSrcTables": [
+      "VALORES_TELEMEDIDOS"
+    ]
+  },
+  {
+    "qName": "RTU_ADDRESS2",
+    "qTags": [],
+    "qSrcTables": [
+      "VALORES_TELEMEDIDOS"
+    ]
+  },
+  {
+    "qName": "SUBSTN",
     "qTags": [
       "$ascii",
       "$text"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "VALORES_TELEMEDIDOS"
     ]
   },
   {
-    "qName": "id_subestacion",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "DIM_BARRAS"
-    ]
-  },
-  {
-    "qName": "intervalo",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "nombre_barra",
+    "qName": "TAG_ICCP",
     "qTags": [
       "$ascii",
       "$text"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "VALORES_TELEMEDIDOS"
     ]
   },
   {
-    "qName": "numero_version",
+    "qName": "TAG_SCADA",
     "qTags": [
-      "$numeric",
-      "$integer"
+      "$text"
     ],
     "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
+      "VALORES_TELEMEDIDOS"
     ]
   },
   {
-    "qName": "numero_version_indhor",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "pais",
+    "qName": "TIPO",
     "qTags": [
       "$ascii",
       "$text"
     ],
     "qSrcTables": [
-      "DIM_BARRAS"
+      "VALORES_TELEMEDIDOS"
     ]
   },
   {
-    "qName": "provincia",
+    "qName": "VALOR",
     "qTags": [
       "$ascii",
       "$text"
     ],
     "qSrcTables": [
-      "DIM_BARRAS"
-    ]
-  },
-  {
-    "qName": "region",
-    "qTags": [
-      "$ascii",
-      "$text"
-    ],
-    "qSrcTables": [
-      "DIM_BARRAS"
-    ]
-  },
-  {
-    "qName": "subestacion",
-    "qTags": [
-      "$ascii",
-      "$text"
-    ],
-    "qSrcTables": [
-      "DIM_BARRAS"
-    ]
-  },
-  {
-    "qName": "unidad",
-    "qTags": [
-      "$ascii",
-      "$text"
-    ],
-    "qSrcTables": [
-      "COSTO_MARGINAL_PROGRAMADO"
-    ]
-  },
-  {
-    "qName": "zona",
-    "qTags": [
-      "$ascii",
-      "$text"
-    ],
-    "qSrcTables": [
-      "DIM_BARRAS"
+      "VALORES_ACTUALES"
     ]
   }
 ]

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "251d0e4b-3cab-413c-a11b-b845d17f92ac",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "DIM_FECHA_HORA_REDUCIDO",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "12-11-2024 09:27",
+  "qIsScriptCreated": true
+}

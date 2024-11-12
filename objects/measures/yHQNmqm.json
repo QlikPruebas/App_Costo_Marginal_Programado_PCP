@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "yHQNmqm",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Valores Mes 1",
+    "qDef": "Avg(MES_1) /100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "=NOMBRE_MES_1",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0.00%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true,
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Valores Mes 1",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "40ed8212-175a-4982-8f0f-48562914958c",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "NOMBRE_MES_1",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "May 2024",
+  "qIsScriptCreated": true
+}

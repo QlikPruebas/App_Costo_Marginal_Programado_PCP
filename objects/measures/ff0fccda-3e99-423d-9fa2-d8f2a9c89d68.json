@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "ff0fccda-3e99-423d-9fa2-d8f2a9c89d68",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Valores Mes 4",
+    "qDef": "Avg(MES_4) /100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "=NOMBRE_MES_4",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0.00%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true,
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Valores Mes 4",
+    "description": "",
+    "tags": []
+  }
+}

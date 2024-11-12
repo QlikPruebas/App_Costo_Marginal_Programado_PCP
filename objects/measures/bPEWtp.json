@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "bPEWtp",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Disponibilidad Calidad",
+    "qDef": "SUM(CALIDAD)/COUNT(CALIDAD)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "=FECHA_HORA_REDUCIDO",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0.00%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true,
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Disponibilidad Calidad",
+    "description": "",
+    "tags": []
+  }
+}

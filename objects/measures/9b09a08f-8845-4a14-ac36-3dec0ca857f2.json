@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "9b09a08f-8845-4a14-ac36-3dec0ca857f2",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Valores Mes 5",
+    "qDef": "Avg(MES_5) /100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "=NOMBRE_MES_5",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0.00%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true,
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Valores Mes 5",
+    "description": "",
+    "tags": []
+  }
+}

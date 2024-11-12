@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "b8095108-1f8b-403b-acdf-c4fe3ee20adf",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vCumplimientoRojo",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "0.95",
+  "tags": []
+}

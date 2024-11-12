@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "84fb013c-a024-455b-b6f7-ae56e3d992a6",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "NOMBRE_MES_4",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Ago 2024",
+  "qIsScriptCreated": true
+}

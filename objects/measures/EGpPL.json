@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "EGpPL",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "% Disponibilidad",
+    "qDef": "Pick(\r\n    Match(DIM_FECHAS_ORDEN,'1', '2', '3', '4'),\n    \t[Valores Mes 1],\n    \t[Valores Mes 2],\n    \t[Valores Mes 3],\n   \t \t[Disponibilidad Calidad]\n)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='% Disponibilidad'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0.00%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true,
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "% Disponibilidad",
+    "description": "",
+    "tags": []
+  }
+}

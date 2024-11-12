@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "2a5d75f9-123c-43d9-8e60-b8b2af122cf9",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "CustomGreen",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "#6cb33f",
+  "qIsScriptCreated": true
+}

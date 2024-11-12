@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "kApUGP",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Valores Mes 3",
+    "qDef": "Avg(MES_3) /100",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "=NOMBRE_MES_3",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "0.00%",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true,
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Valores Mes 3",
+    "description": "",
+    "tags": []
+  }
+}

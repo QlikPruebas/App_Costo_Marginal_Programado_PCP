@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "312e4253-34e4-40c1-a6f7-790a14eaa706",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vCumplimientoVerde",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "0.995",
+  "tags": []
+}

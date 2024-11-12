@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "aae0ae04-eee6-4b01-a595-13fd1362212e",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "CustomYellow",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "#F68A34",
+  "qIsScriptCreated": true
+}

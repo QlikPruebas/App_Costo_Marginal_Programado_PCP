@@ -1,0 +1,30 @@
+{
+  "qInfo": {
+    "qId": "TupPBR",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Calidad",
+    "qDef": "Count(CALIDAD)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Calidad'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "isCustomFormatted": false,
+    "numFormatFromTemplate": true,
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Calidad",
+    "description": "",
+    "tags": []
+  }
+}
